@@ -1,0 +1,30 @@
+{
+  "name": "pg-partisan",
+  "version": "0.1.0",
+  "description": "Partisan - CLI migration tool for PostgreSQL",
+  "main": "index.js",
+  "homepage": "https://github.com/damirka/pg-partisan",
+  "keywords": [
+    "pg",
+    "sql",
+    "cli",
+    "postgres",
+    "migration",
+    "postgresql"
+  ],
+  "author": "Damir Shamanaev <damirka.ru@gmail.com>",
+  "bin": {
+    "partisan": "./bin/partisan"
+  },
+  "scripts": {
+    "generate-docs": "./node_modules/.bin/jsdoc -c .jsdocrc --readme README.md lib"  
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "pg": "^6.1.5"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  },
+  "license": "MIT"
+}
