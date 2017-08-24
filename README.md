@@ -1,4 +1,4 @@
-## partisan
+## pg-partisan
 
 Partisan (pg-partisan in npm) is CLI migration tool for NodeJS and PostgreSQL
 
